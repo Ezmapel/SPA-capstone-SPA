@@ -1,8 +1,8 @@
 body {
   background-color: rgb(53, 51, 51);
-  background-image: url(./pics/pulse.jpeg);
+  /* background-image: url(./pics/pulse.jpeg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   color: black;
   margin: auto;
   /* background-position: center; */
@@ -15,12 +15,22 @@ body {
   /* padding: 10px; */
 }
 
+#jumbotron {
+  background-image: url(./pics/pulse.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3%;
+  /* margin: 3% 0%; */
+}
+
 nav {
   background-color: rgb(53, 51, 51);
   position: absolute;
   top: 0;
   width: 100%;
   box-shadow: 0 3px 6px 1px rgba(77, 77, 77, 0.639);
+  display: flex;
+  justify-content: space-between;
 }
 
 ul {
@@ -29,13 +39,17 @@ ul {
   padding: 0;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap; /* delete after*/
+  /* align-content: flex-start;
   text-align: end;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; */
   color: white;
 }
 
 li {
-  padding: 1% 2%;
+  /* padding: 15px 30px; */
+  /* switch these after; */
+  padding: 5px;
 }
 
 .accent:hover {
@@ -59,8 +73,8 @@ li {
 .header {
   /* border: 3px solid black; */
   max-width: 40%;
-  margin: 7% 30% 2% 30%;
-  font-size: 56px;
+  margin: 3% 30% 2% 30%;
+  font-size: 72px;
   padding: 0%;
   display: flex;
   justify-content: center;
@@ -164,8 +178,8 @@ p {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
   width: 100%;
   background-color: rgb(53, 51, 51);
   box-shadow: 0 -1px 3px 1px rgba(77, 77, 77, 0.639);
@@ -173,4 +187,61 @@ footer {
 
 .inset {
   margin: 0px 50px;
+}
+
+/* Start AccountType specific css */
+h3 {
+  font-size: 36px;
+  margin: 5px 30px;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#vertcenter {
+  margin: 3% 10% 0% 10%;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 1% 10% 0% 10%;
+}
+
+img {
+  display: block;
+  max-width: 40%;
+  max-height: 40%;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+
+.acctTypeButton {
+  padding: 3%;
+  margin: 2%;
+  max-width: 30%;
+  align-self: flex-start;
+  border-radius: 10px;
+  background-color: rgb(120, 120, 242);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button:hover {
+  background-color: rgb(85, 85, 142);
+  cursor: pointer;
+}
+
+/* get the st.Header to reveal itself from behind the nav bar */
+.showMe {
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 48px;
 }

@@ -1,4 +1,5 @@
-export default () => `<div class="center">
+export default st => `<h2 class="showMe">${st.Header}</h2>
+<div class="center">
 <h1>Create Your Profile:</h1>
 </div>
 
@@ -10,4 +11,5 @@ export default () => `<div class="center">
 <label>Tell us a bit about your practice:</label><input type="text">
 <label>Name of Med School You Attended:</label><input type="text">
 
-</form>`;
+</form>
+<button id="">Click</button>`;

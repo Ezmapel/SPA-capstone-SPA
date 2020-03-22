@@ -1,4 +1,4 @@
 export default {
-  Header: "Create New Account Patient",
+  Header: "Create New Patient Account",
   view: "CreateUserPatient"
 };
