@@ -5,6 +5,6 @@ export default st => `<h2 class="showMe">${st.Header}</h2>
 </div>
 
 <div class="center">
-<button id="createUserDoc" class="acctTypeButton">I am a new DOCTOR. Create my account now!</button>
-<button id="createUserPatient" class="acctTypeButton">I am a new PATIENT. Create my account now!</button>
+<button class="acctTypeButton createUserDoc">I am a new DOCTOR. Create my account now!</button>
+<button class="acctTypeButton createUserPatient">I am a new PATIENT. Create my account now!</button>
 </div>`;

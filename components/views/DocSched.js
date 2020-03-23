@@ -1,2 +1,3 @@
 export default st => `<h2 class="showMe">${st.Header}</h2>
-<button id="">Click</button>`;
+<button class="docPortal">Back</button>
+<button class="docTimeSlots">Edit</button>`;

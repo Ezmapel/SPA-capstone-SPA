@@ -5,5 +5,5 @@ export default st => `<h2 class="showMe">${st.Header}</h2>
 <input class="signin" placeholder="Username">
 <input class="signin" placeholder="Password" type="password">
 <input class="signin" placeholder="Confirm Password" type="password">
-<button id="docPortal" class="login">Create</button>
+<button class="login createDocProfile">Create</button>
 </div>`;

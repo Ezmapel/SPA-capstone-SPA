@@ -121,48 +121,63 @@ function browseType() {
 
 function createDocProfile() {
   render(state.CreateDocProfile);
-  document.querySelector(".").addEventListener("click");
+  document.querySelector(".docPortal").addEventListener("click", docPortal);
 }
 
 function createPatientProfile() {
   render(state.CreatePatientProfile);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".patientPortal")
+    .addEventListener("click", patientPortal);
 }
 
 function createUserDoc() {
   render(state.CreateUserDoc);
-  document.querySelector(".docPortal").addEventListener("click", docPortal);
+  document
+    .querySelector(".createDocProfile")
+    .addEventListener("click", createDocProfile);
 }
 
 function createUserPatient() {
   render(state.CreateUserPatient);
-  document.querySelector(".").addEventListener("click");
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".createPatientProfile")
+    .addEventListener("click", createPatientProfile);
 }
 
 function docBookings() {
   render(state.DocBookings);
-  document.querySelector(".").addEventListener("click");
+  document.querySelector(".docPortal").addEventListener("click", docPortal);
 }
 
 function docNotifications() {
   render(state.DocNotifications);
-  document.querySelector(".").addEventListener("click");
+  document.querySelector(".docPortal").addEventListener("click", docPortal);
 }
 
 function docPortal() {
   render(state.DocPortal);
-  document.querySelector(".").addEventListener("click");
+  document.querySelector(".docSched").addEventListener("click", docSched);
+  document
+    .querySelector(".docNotifications")
+    .addEventListener("click", docNotifications);
+  document.querySelector(".docBookings").addEventListener("click", docBookings);
+  document
+    .querySelector(".createDocProfile")
+    .addEventListener("click", createDocProfile);
 }
 
 function docSched() {
   render(state.DocSched);
-  document.querySelector(".").addEventListener("click");
+  document.querySelector(".docPortal").addEventListener("click", docPortal);
+  document
+    .querySelector(".docTimeSlots")
+    .addEventListener("click", docTimeSlots);
 }
 
 function docTimeSlots() {
   render(state.DocTimeSlots);
-  document.querySelector(".").addEventListener("click");
+  document.querySelector(".docSched").addEventListener("click", docSched);
 }
 
 function home() {
