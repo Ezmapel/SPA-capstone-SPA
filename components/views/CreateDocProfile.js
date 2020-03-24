@@ -12,4 +12,4 @@ export default st => `<h2 class="showMe">${st.Header}</h2>
 <label>Name of Med School You Attended:</label><input type="text">
 
 </form>
-<button class="docPortal">Next</button>`;
+<button class="docPortal">Save</button>`;

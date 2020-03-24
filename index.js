@@ -107,16 +107,33 @@ function accountType() {
   document
     .querySelector(".createUserPatient")
     .addEventListener("click", createUserPatient);
+  document.querySelector(".home").addEventListener("click", home);
 }
 
 function browseRegion() {
   render(state.BrowseRegion);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".patientPortal")
+    .addEventListener("click", patientPortal);
+  document
+    .querySelector(".patientSkejit")
+    .addEventListener("click", patientSkejit);
+  document
+    .querySelector(".patientViewDoc")
+    .addEventListener("click", patientViewDoc);
 }
 
 function browseType() {
   render(state.BrowseType);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".patientPortal")
+    .addEventListener("click", patientPortal);
+  document
+    .querySelector(".patientSkejit")
+    .addEventListener("click", patientSkejit);
+  document
+    .querySelector(".patientViewDoc")
+    .addEventListener("click", patientViewDoc);
 }
 
 function createDocProfile() {
@@ -136,6 +153,7 @@ function createUserDoc() {
   document
     .querySelector(".createDocProfile")
     .addEventListener("click", createDocProfile);
+  document.querySelector(".accountType").addEventListener("click", accountType);
 }
 
 function createUserPatient() {
@@ -143,6 +161,7 @@ function createUserPatient() {
   document
     .querySelector(".createPatientProfile")
     .addEventListener("click", createPatientProfile);
+  document.querySelector(".accountType").addEventListener("click", accountType);
 }
 
 function docBookings() {
@@ -198,7 +217,13 @@ function patientConfirmation() {
 
 function patientPortal() {
   render(state.PatientPortal);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".browseRegion")
+    .addEventListener("click", browseRegion);
+  document.querySelector(".browseType").addEventListener("click", browseType);
+  document
+    .querySelector(".searchResults")
+    .addEventListener("click", searchResults);
 }
 
 function patientSkejit() {
@@ -213,5 +238,13 @@ function patientViewDoc() {
 
 function searchResults() {
   render(state.SearchResults);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".patientPortal")
+    .addEventListener("click", patientPortal);
+  document
+    .querySelector(".patientSkejit")
+    .addEventListener("click", patientSkejit);
+  document
+    .querySelector(".patientViewDoc")
+    .addEventListener("click", patientViewDoc);
 }

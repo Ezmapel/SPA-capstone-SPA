@@ -1,4 +1,5 @@
-export default st => `<h2 class="showMe">${st.Header}</h2>
+export default st => `<button class="login accountType">Back</button>
+<h2 class="showMe">${st.Header}</h2>
 
 <div class="loginBox">
 <h2 class="border">Select your login info:</h2>
