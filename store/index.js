@@ -16,4 +16,6 @@ export { default as PatientConfirmation } from "./PatientConfirmation";
 export { default as PatientPortal } from "./PatientPortal";
 export { default as PatientSkejit } from "./PatientSkejit";
 export { default as PatientViewDoc } from "./PatientViewDoc";
+export { default as PatientViewDocGuest } from "./PatientViewDocGuest";
 export { default as SearchResults } from "./SearchResults";
+export { default as SearchResultsGuest } from "./SearchResultsGuest";

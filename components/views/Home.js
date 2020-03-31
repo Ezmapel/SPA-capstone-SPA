@@ -17,7 +17,7 @@ export default () => `
 <div class="buttonGroup">
   <button class="buttons accountType">Register now</button>
   <p>OR</p>
-  <button class="buttons browseType">Browse Doctors</button>
+  <button class="buttons searchResultsGuest">Browse Doctors</button>
 </div>
 </div>
 </section>`;

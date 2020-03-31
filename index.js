@@ -202,38 +202,76 @@ function docTimeSlots() {
 function home() {
   render(state.Home);
   document.querySelector(".accountType").addEventListener("click", accountType);
-  document.querySelector(".browseType").addEventListener("click", browseType);
+  document
+    .querySelector(".searchResultsGuest")
+    .addEventListener("click", searchResultsGuest);
 }
 
 function patientBookings() {
   render(state.PatientBookings);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".patientPortal")
+    .addEventListener("click", patientPortal);
 }
 
 function patientConfirmation() {
   render(state.PatientConfirmation);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".searchResults")
+    .addEventListener("click", searchResults);
+  document
+    .querySelector(".patientBookings")
+    .addEventListener("click", patientBookings);
+  document
+    .querySelector(".patientPortal")
+    .addEventListener("click", patientPortal);
 }
 
 function patientPortal() {
   render(state.PatientPortal);
   document
-    .querySelector(".browseRegion")
-    .addEventListener("click", browseRegion);
-  document.querySelector(".browseType").addEventListener("click", browseType);
+    .querySelector(".createPatientProfile")
+    .addEventListener("click", createPatientProfile);
+  // document
+  //   .querySelector(".browseRegion")
+  //   .addEventListener("click", browseRegion);
+  // document.querySelector(".browseType").addEventListener("click", browseType);
   document
     .querySelector(".searchResults")
     .addEventListener("click", searchResults);
+  document
+    .querySelector(".patientBookings")
+    .addEventListener("click", patientBookings);
 }
 
 function patientSkejit() {
   render(state.PatientSkejit);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".searchResults")
+    .addEventListener("click", searchResults);
+  document
+    .querySelector(".patientConfirmation")
+    .addEventListener("click", patientConfirmation);
 }
 
 function patientViewDoc() {
   render(state.PatientViewDoc);
-  document.querySelector(".").addEventListener("click");
+  document
+    .querySelector(".searchResults")
+    .addEventListener("click", searchResults);
+  document
+    .querySelector(".patientSkejit")
+    .addEventListener("click", patientSkejit);
+}
+
+function patientViewDocGuest() {
+  render(state.PatientViewDocGuest);
+  document
+    .querySelector(".searchResultsGuest")
+    .addEventListener("click", searchResultsGuest);
+  document
+    .querySelector(".createUserPatient")
+    .addEventListener("click", createUserPatient);
 }
 
 function searchResults() {
@@ -247,4 +285,14 @@ function searchResults() {
   document
     .querySelector(".patientViewDoc")
     .addEventListener("click", patientViewDoc);
+}
+
+function searchResultsGuest() {
+  render(state.SearchResultsGuest);
+  document
+    .querySelector(".patientViewDocGuest")
+    .addEventListener("click", patientViewDocGuest);
+  document
+    .querySelector(".createUserPatient")
+    .addEventListener("click", createUserPatient);
 }

@@ -1,4 +1,4 @@
 export default {
-  Header: "Confirm you appointment",
+  Header: "Your appointment has been scheduled!",
   view: "PatientConfirmation"
 };
