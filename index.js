@@ -8,6 +8,28 @@ import * as state from "./store";
 
 import * as externalFunctions from "./lib";
 
+import { db } from "./firebase";
+
+const coll = db.collection("pizzas");
+
+coll.doc("odLEfXgIRHyfqbusaPKv").update({ sauce: "hello" });
+
+// import Navigo from "navigo";
+
+// import { capitalize } from "lodash";
+
+// const router = new Navigo(window.location.origin);
+
+// router
+//   .on({
+//     "/": () => render(state.Home),
+//     ":page": params => {
+//       let page = capitalize(params.page);
+//       render(state[page]);
+//     }
+//   })
+//   .resolve();
+
 function render(st) {
   console.log("state is", st);
   document.querySelector("#root").innerHTML = `
@@ -78,6 +100,8 @@ function render(st) {
   }
 
   navEventListeners();
+
+  // router.updatePageLinks();
 
   // if (st.view === "Home") {
   //   home();
