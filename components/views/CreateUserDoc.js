@@ -4,8 +4,8 @@ export default st => `
 
 <div class="loginBox">
 <h2 class="border">Select your login info:</h2>
-<input class="signin" placeholder="Username">
-<input class="signin" placeholder="Password" type="password">
+<input type="text" class="signin nameName" placeholder="Username">
+<input class="signin" id="passPass" placeholder="Password" type="password">
 <input class="signin" placeholder="Confirm Password" type="password">
 <button class="login createDocProfile">Create</button>
 </div>`;

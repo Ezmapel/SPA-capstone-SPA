@@ -4,15 +4,15 @@
 
 import * as components from "./components";
 
-import * as state from "./store";
+// import * as state from "./store";
 
 import * as lib from "./lib";
 
 // import { db } from "./firebase";
 
-// const coll = db.collection("pizzas");
+// const coll = db.collection("users");
 
-// coll.doc("odLEfXgIRHyfqbusaPKv").update({ sauce: "red" });
+// coll.doc("doctors").update({ firstName: "Test" });
 
 // un-comment 3 lines above for Firebase
 
