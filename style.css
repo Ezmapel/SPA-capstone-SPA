@@ -245,3 +245,9 @@ button:hover {
   color: white;
   font-size: 48px;
 }
+
+.timeSlot {
+  display: flex;
+  color: white;
+  border: 5px solid black;
+}

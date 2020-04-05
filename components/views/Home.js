@@ -10,9 +10,6 @@ export default () => `
 <input id="pass" class="signin" placeholder="Password" type="password">
 <button class="login">Login</button>
 
-<p id="object">Test
-</p>
-
 <div class="noaccount">
   <h2>Don't have an account?</h2>
 </div>
