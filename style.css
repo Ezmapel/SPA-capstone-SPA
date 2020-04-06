@@ -251,3 +251,43 @@ button:hover {
   color: white;
   border: 5px solid black;
 }
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* height: 1000px; */
+  /* flex-wrap: wrap; */
+}
+
+.dayOne {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  /* height: 30%; */
+}
+
+.dayTwo {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  /* height: 30%; */
+}
+
+.calendar1 {
+  border: 3px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(57, 2, 2); */
+}
+
+.calendar2 {
+  border: 3px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(57, 2, 2); */
+}

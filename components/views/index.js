@@ -1,6 +1,4 @@
 export { default as AccountType } from "./AccountType";
-export { default as BrowseRegion } from "./BrowseRegion";
-export { default as BrowseType } from "./BrowseType";
 export { default as CreateDocProfile } from "./CreateDocProfile";
 export { default as CreatePatientProfile } from "./CreatePatientProfile";
 export { default as CreateUserDoc } from "./CreateUserDoc";

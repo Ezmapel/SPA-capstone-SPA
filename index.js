@@ -47,12 +47,6 @@ export function render(st) {
       .querySelector(".accountTypeNav")
       .addEventListener("click", lib.accountType);
     document
-      .querySelector(".browseRegionNav")
-      .addEventListener("click", lib.browseRegion);
-    document
-      .querySelector(".browseTypeNav")
-      .addEventListener("click", lib.browseType);
-    document
       .querySelector(".createDocProfileNav")
       .addEventListener("click", lib.createDocProfile);
     document
