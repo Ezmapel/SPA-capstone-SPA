@@ -4,7 +4,6 @@ export default () => `<nav>
     <ul class="hidden--mobile">
       <li class="accent accountTypeNav">AccountType</li>
       <li class="accent createDocProfileNav">CreateDocProfile</li>
-      <li class="accent createPatientProfileNav">CreatePatientProfile</li>
       <li class="accent createUserDocNav">CreateUserDoc</li>
       <li class="accent createUserPatientNav">CreateUserPatient</li>
       <li class="accent docBookingsNav">DocBookings</li>

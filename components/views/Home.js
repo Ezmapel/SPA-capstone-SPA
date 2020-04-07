@@ -6,7 +6,7 @@ export default () => `
 
 <div class="loginBox">
 <h2 class="border">Sign in</h2>
-<input id="user" class="signin" placeholder="Username">
+<input id="user" class="signin" placeholder="Email">
 <input id="pass" class="signin" placeholder="Password" type="password">
 <button class="login">Login</button>
 

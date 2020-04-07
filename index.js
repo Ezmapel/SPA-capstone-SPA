@@ -50,9 +50,6 @@ export function render(st) {
       .querySelector(".createDocProfileNav")
       .addEventListener("click", lib.createDocProfile);
     document
-      .querySelector(".createPatientProfileNav")
-      .addEventListener("click", lib.createPatientProfile);
-    document
       .querySelector(".createUserDocNav")
       .addEventListener("click", lib.createUserDoc);
     document

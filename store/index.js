@@ -1,6 +1,5 @@
 export { default as AccountType } from "./AccountType";
 export { default as CreateDocProfile } from "./CreateDocProfile";
-export { default as CreatePatientProfile } from "./CreatePatientProfile";
 export { default as CreateUserDoc } from "./CreateUserDoc";
 export { default as CreateUserPatient } from "./CreateUserPatient";
 export { default as DocBookings } from "./DocBookings";
