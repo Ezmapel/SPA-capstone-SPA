@@ -8,7 +8,7 @@ export default st => `
 <div class="loginBox">
 <h2 class="border">Select your login info:</h2>
 <input id="newPatientEmail" class="signin" placeholder="Email*">
-<input class="signin" placeholder="Password*" type="password">
+<input id="newPatientPassword" class="signin" placeholder="Password*" type="password">
 <input class="signin" placeholder="Confirm Password*" type="password">
 <br>
 <input id="patientFirstName" class="signin" placeholder="First Name*">

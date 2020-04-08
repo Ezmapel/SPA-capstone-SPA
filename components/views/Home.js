@@ -9,6 +9,7 @@ export default () => `
 <input id="user" class="signin" placeholder="Email" required>
 <input id="pass" class="signin" placeholder="Password" type="password" required>
 <button id="loginHome" class="login">Login</button>
+<button id="logoutHome" class="login">Logout</button>
 
 <div class="noaccount">
   <h2>Don't have an account?</h2>

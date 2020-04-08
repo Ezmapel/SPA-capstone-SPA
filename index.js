@@ -4,11 +4,11 @@
 
 import * as components from "./components";
 
-// import * as state from "./store";
+import * as state from "./store";
 
 import * as lib from "./lib";
 
-// import { db, auth } from "./firebase";
+import { db, auth } from "./firebase";
 
 // const coll = db.collection("users");
 
@@ -41,6 +41,20 @@ export function render(st) {
 `;
 
   console.log("st.Header", st.Header);
+
+  authListener();
+
+  function authListener() {
+    auth.onAuthStateChanged(function(user) {
+      if (user) {
+        state.Auth.loggedIn = "true";
+      } else {
+        state.Auth.loggedIn = "false";
+      }
+
+      console.log("authState:", state.Auth.loggedIn);
+    });
+  }
 
   function navEventListeners() {
     document

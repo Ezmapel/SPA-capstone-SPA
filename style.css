@@ -210,8 +210,8 @@ h3 {
 
 img {
   display: block;
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 35%;
+  max-height: 35%;
   height: auto;
   width: auto;
   border-radius: 10px;
@@ -357,4 +357,22 @@ button:hover {
 
 .doctorFormItem {
   margin: 1%;
+}
+
+.portalButton {
+  display: flex;
+  justify-content: center;
+  margin: 5% 40% 2% 40%;
+  background-color: rgb(208, 135, 0);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 3%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.portalButton:hover {
+  background-color: rgb(162, 106, 1);
+  cursor: pointer;
 }
