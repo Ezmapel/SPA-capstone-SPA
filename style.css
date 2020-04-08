@@ -245,13 +245,13 @@ button:hover {
   font-size: 48px;
 }
 
-.showMeNoButton {
+/* .showMeNoButton {
   margin-top: 8%;
   display: flex;
   justify-content: center;
   color: white;
   font-size: 48px;
-}
+} */
 
 .timeSlot {
   display: flex;
@@ -314,13 +314,14 @@ button:hover {
 }
 
 .underNav {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   padding: 5% 0% 0% 1%;
 }
 
 .navInApp {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-start; */
   /* margin: 7% 40% 2% 5%; */
   background-color: rgb(208, 135, 0);
   color: white;
@@ -375,4 +376,32 @@ button:hover {
 .portalButton:hover {
   background-color: rgb(162, 106, 1);
   cursor: pointer;
+}
+
+.logOutButton {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  /* justify-content: flex-end; */
+  margin: 0% 2% 0% 0%;
+  background-color: rgb(120, 120, 242);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logOutButton:hover {
+  background-color: rgb(85, 85, 142);
+  cursor: pointer;
+}
+
+.logOutButtonHidden {
+  visibility: hidden;
+}
+
+.hiddenButton {
+  visibility: hidden;
 }

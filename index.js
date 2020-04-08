@@ -37,8 +37,7 @@ export function render(st) {
   document.querySelector("#root").innerHTML = `
   ${components.Nav()}
   ${components.Main(st)}
-  ${components.Footer()}
-`;
+  ${components.Footer()}`;
 
   console.log("st.Header", st.Header);
 

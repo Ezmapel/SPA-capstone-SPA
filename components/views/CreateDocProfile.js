@@ -1,4 +1,10 @@
-export default st => `<h2 class="showMeNoButton">${st.Header}</h2>
+export default st => `
+<div class="underNav">
+<button class="hiddenButton"></button>
+<button id="userLoggedIn"></button>
+</div>
+
+<h2 class="showMe">${st.Header}</h2>
 
 <form class="doctorProfile">
 <div class="doctorFormItem">

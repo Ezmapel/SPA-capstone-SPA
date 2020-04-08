@@ -1,4 +1,9 @@
 export default () => `
+<div class="underNav">
+<button class="hiddenButton"></button>
+<button id="userLoggedIn"></button>
+</div>
+
 <section id="jumbotron">
 <header class="header">
 <h1>Skejit</h1>
@@ -9,7 +14,6 @@ export default () => `
 <input id="user" class="signin" placeholder="Email" required>
 <input id="pass" class="signin" placeholder="Password" type="password" required>
 <button id="loginHome" class="login">Login</button>
-<button id="logoutHome" class="login">Logout</button>
 
 <div class="noaccount">
   <h2>Don't have an account?</h2>
