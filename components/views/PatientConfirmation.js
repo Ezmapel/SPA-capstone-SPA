@@ -1,6 +1,10 @@
 export default st => `
-<button class="login searchResults">Keep searching</button>
+<div class="underNav">
+<button class="navInApp searchResults"><--</button>
+</div>
+
 <h2 class="showMe">${st.Header}</h2>
-<button class="patientBookings">View your upcoming bookings</button>
-<button class="patientPortal">Back to your portal</button>
+
+<button class="navInApp patientBookings">View your upcoming bookings</button>
+<button class="navInApp patientPortal">Back to your portal</button>
 `;

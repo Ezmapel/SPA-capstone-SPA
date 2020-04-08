@@ -1,4 +1,8 @@
-export default st => `<button class="login home">Home</button>
+export default st => `
+<div class="underNav">
+<button class="navInApp home"><--</button>
+</div>
+
 <h2 class="showMe">${st.Header}</h2>
 <div id="vertcenter" class="center">
 <img src="https://raw.githubusercontent.com/Ezmapel/SPA-capstone-SPA/master/pics/doctor.jpg">

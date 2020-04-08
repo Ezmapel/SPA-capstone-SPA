@@ -1,2 +1,6 @@
-export default st => `<h2 class="showMe">${st.Header}</h2>
-<button class="docSched">Back</button>`;
+export default st => `
+<div class="underNav">
+<button class="navInApp docSched"><--</button>
+</div>
+
+<h2 class="showMe">${st.Header}</h2>`;

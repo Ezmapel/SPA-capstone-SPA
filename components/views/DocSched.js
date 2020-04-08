@@ -1,4 +1,9 @@
-export default st => `<h2 class="showMe">${st.Header}</h2>
+export default st => `
+<div class="underNav">
+<button class="navInApp docPortal"><--</button>
+</div>
+
+<h2 class="showMe">${st.Header}</h2>
 <section class="day">
 <section class="dayOne">
 <div class="calendar1">Slot 1</div>
@@ -19,5 +24,4 @@ export default st => `<h2 class="showMe">${st.Header}</h2>
 </section>
 </section>
 
-<button class="docPortal">Back</button>
-<button class="docTimeSlots">Edit</button>`;
+<button class="navInApp docTimeSlots">Edit</button>`;

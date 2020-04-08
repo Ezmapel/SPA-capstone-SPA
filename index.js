@@ -8,7 +8,7 @@ import * as components from "./components";
 
 import * as lib from "./lib";
 
-// import { db } from "./firebase";
+// import { db, auth } from "./firebase";
 
 // const coll = db.collection("users");
 

@@ -1,4 +1,5 @@
-export default () => `<nav>
+export default () => `<div>
+  <nav class="fixed">
     <h3>Skejit</h3>
     <!-- <i class="fas fa-bars"></i> -->
     <ul class="hidden--mobile">
@@ -20,7 +21,8 @@ export default () => `<nav>
       <li class="accent searchResultsNav">SearchResults</li>
       <li>Find a Doctor: <input placeholder="Search"></li>
     </ul>
-  </nav>`;
+  </nav>
+  </div>`;
 
 // `<nav>
 //   <h3>Skejit</h3>
