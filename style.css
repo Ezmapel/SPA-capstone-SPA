@@ -259,60 +259,6 @@ button:hover {
   border: 5px solid black;
 }
 
-.day {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  background-color: gray;
-  /* height: 1000px; */
-  /* flex-wrap: wrap; */
-}
-
-.dayOne {
-  display: flex;
-  flex-direction: column;
-  width: 15%;
-  /* max-height: 200px; */
-  /* height: 30%; */
-}
-
-.dayTwo {
-  display: flex;
-  flex-direction: column;
-  width: 15%;
-  /* height: 30%; */
-}
-
-.calendar1 {
-  border: 2px solid black;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  margin: 0px 5px;
-  /* background-color: rgb(57, 2, 2); */
-}
-
-.calendar2 {
-  border: 2px solid black;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  margin: 0px 5px;
-  /* background-color: rgb(57, 2, 2); */
-}
-
-.calendar1:hover {
-  box-shadow: 0 3px 6px 3px black;
-}
-
-.calendar2:hover {
-  box-shadow: 0 3px 6px 3px black;
-}
-
 .underNav {
   display: flex;
   justify-content: space-between;
@@ -405,4 +351,127 @@ button:hover {
 
 .hiddenButton {
   visibility: hidden;
+}
+
+/* CALENDAR STYLING */
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: gray;
+  padding: 2%;
+  /* height: 1000px; */
+  /* flex-wrap: wrap; */
+}
+
+.dayOne {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  /* max-height: 200px; */
+  /* height: 30%; */
+}
+
+.dayTwo {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  /* height: 30%; */
+}
+
+.dayThree {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  /* height: 30%; */
+}
+
+.dayFour {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  /* height: 30%; */
+}
+
+.dayFive {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  /* height: 30%; */
+}
+
+.calendar1 {
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0px 5px;
+  /* background-color: rgb(57, 2, 2); */
+}
+
+.calendar2 {
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0px 5px;
+  /* background-color: rgb(57, 2, 2); */
+}
+
+.calendar3 {
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0px 5px;
+  /* background-color: rgb(57, 2, 2); */
+}
+
+.calendar4 {
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0px 5px;
+  /* background-color: rgb(57, 2, 2); */
+}
+
+.calendar5 {
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0px 5px;
+  /* background-color: rgb(57, 2, 2); */
+}
+
+.calendar1:hover {
+  box-shadow: 0 3px 6px 3px black;
+}
+
+.calendar2:hover {
+  box-shadow: 0 3px 6px 3px black;
+}
+
+.calendar3:hover {
+  box-shadow: 0 3px 6px 3px black;
+}
+
+.calendar4:hover {
+  box-shadow: 0 3px 6px 3px black;
+}
+
+.calendar5:hover {
+  box-shadow: 0 3px 6px 3px black;
 }
