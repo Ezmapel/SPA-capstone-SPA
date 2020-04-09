@@ -1,3 +1,5 @@
 export default {
-  loggedIn: ""
+  loggedIn: "",
+  username: "",
+  user: "",
 };

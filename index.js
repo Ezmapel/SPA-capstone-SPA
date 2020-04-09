@@ -44,14 +44,17 @@ export function render(st) {
   authListener();
 
   function authListener() {
-    auth.onAuthStateChanged(function(user) {
+    auth.onAuthStateChanged(function (user) {
       if (user) {
         state.Auth.loggedIn = "true";
+        state.Auth.username = auth.currentUser.email;
       } else {
         state.Auth.loggedIn = "false";
+        state.Auth.username = "";
       }
 
       console.log("authState:", state.Auth.loggedIn);
+      console.log("username:", state.Auth.username);
     });
   }
 
@@ -110,3 +113,17 @@ export function render(st) {
 }
 
 lib.home();
+
+// This preloads doctor's FireStore data into state for access on CreateDocProfile Page...need to do the same with Realtime
+// let docUserEmail = state.Auth.username;
+// console.log("Here we go", docUserEmail);
+
+// db.collection("doctors")
+//   .doc(docUserEmail)
+//   .get()
+//   .then(function (doc) {
+//     if (doc.exists) {
+//       console.log("Document data", doc.data());
+//       // state.CreateDocProfile.docUserData = doc.data();
+//     } else console.log("This data does not exist");
+//   });
