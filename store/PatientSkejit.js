@@ -1,4 +1,4 @@
 export default {
-  Header: "Schedule your appointment!",
-  view: "PatientSkejit"
+  Header: "Schedule your appointment",
+  view: "PatientSkejit",
 };

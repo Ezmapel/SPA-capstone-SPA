@@ -34,8 +34,7 @@ function formatResults(result) {
     </div>
 
     <div class="searchButtons">
-    <button id="${result.email}" class="searchResultButton patientViewDoc">Read more about this Doctor</button>
-    <button class="searchResultButton patientSkejit">Make appointment!</button>
+    <button id="${result.email}" class="searchResultButton patientViewDoc">Read more/Make an appointment!</button>
     </div>
 
     </div>

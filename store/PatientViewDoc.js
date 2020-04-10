@@ -1,6 +1,7 @@
 export default {
   Header: "Doctor Details",
   view: "PatientViewDoc",
-  specificDoc: "",
+  specificDocEmail: "",
+  specificDocLastFirst: "",
   specificDocDetails: "",
 };
