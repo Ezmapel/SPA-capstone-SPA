@@ -182,7 +182,6 @@ function authListener() {
     }
 
     let docUserEmail = state.Auth.username;
-    console.log("Here we go", docUserEmail);
 
     db.collection("doctors")
       .doc(docUserEmail)
@@ -194,7 +193,7 @@ function authListener() {
           state.DocSched.docUserData = doc.data();
           docPortal();
         } else {
-          console.log("This data does not exist");
+          console.log("This user is likely a patient");
           patientPortal();
         }
       });
@@ -204,3 +203,43 @@ function authListener() {
     console.log("Document Data", state.CreateDocProfile.docUserData);
   });
 }
+
+// axios
+//   .get("https://jsonplaceholder.typicode.com/posts")
+//   .then(response => {
+//     console.log("response", response.data);
+//     response.data.forEach(post => {
+//       state.Blog.posts.push(post);
+//     });
+//     const params = router.lastRouteResolved().params;
+//     console.log("Params", params);
+//     if (params) {
+//       render(state[params.page]);
+//     }
+//   })
+//   .catch(err => console.log(err));
+
+db.collection("doctors")
+  .get()
+  .then(function (querySnapshot) {
+    querySnapshot.forEach(function (doc) {
+      console.log(doc.id, " => ", doc.data());
+      state.SearchResults.results.push(doc.data());
+    });
+  })
+  .catch(function (error) {
+    console.log("Error getting documents: ", error);
+  });
+// (response) => {
+// console.log("response", response.data);
+// if (doc.exists) {
+//   // console.log("Document data", doc.data());
+//   state.CreateDocProfile.docUserData = doc.data();
+//   state.DocSched.docUserData = doc.data();
+//   state.SearchResults.results.push();
+//   docPortal();
+// } else {
+//   console.log("This user is likely a patient");
+//   patientPortal();
+// }
+// });

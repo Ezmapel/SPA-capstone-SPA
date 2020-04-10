@@ -359,7 +359,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: gray;
+  background-color: rgb(91, 88, 88);
   padding: 2%;
   /* height: 1000px; */
   /* flex-wrap: wrap; */
@@ -474,4 +474,72 @@ button:hover {
 
 .calendar5:hover {
   box-shadow: 0 3px 6px 3px black;
+}
+
+.individualSearchResult {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* align-content: center; */
+  background-color: rgb(91, 88, 88);
+  padding: 1% 5%;
+  margin: 1%;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.splitBottom {
+  display: flex;
+  justify-content: space-between;
+  /* border-top: 1px double black; */
+  border-top: 4px double white;
+}
+
+.docBold {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.searchButtons {
+  display: flex;
+  /* margin: 1% 0%; */
+  padding: 1%;
+}
+
+.searchResultButton {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* margin: 7% 40% 2% 5%; */
+  background-color: rgb(208, 135, 0);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0% 1%;
+}
+
+.searchResultButton:hover {
+  background-color: rgb(162, 106, 1);
+  cursor: pointer;
+}
+
+.acceptingPatients {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* margin: 7% 40% 2% 5%; */
+  background-color: rgb(5, 57, 7);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0% 1%;
 }

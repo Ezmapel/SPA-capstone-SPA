@@ -1,4 +1,5 @@
 export default {
-  Header: "Search Results",
-  view: "SearchResults"
+  Header: "Browse Doctors",
+  view: "SearchResults",
+  results: [],
 };
