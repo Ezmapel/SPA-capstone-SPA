@@ -543,3 +543,7 @@ button:hover {
   font-weight: bold;
   margin: 0% 1%;
 }
+
+.specificDocHidden {
+  visibility: hidden;
+}

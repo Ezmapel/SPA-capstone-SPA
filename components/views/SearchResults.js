@@ -17,6 +17,7 @@ function formatResults(result) {
     <p class="docBold">${result.firstName} ${result.lastName}, MD (Not a real doctor)</p>
     <p>Specialty: ${result.specialty}</p>
     <p>Rating: ${result.rating}</p>
+    <p class="specificDocHidden">${result.lastName}${result.firstName}</p>
     </div>
 
     <div>
@@ -33,7 +34,7 @@ function formatResults(result) {
     </div>
 
     <div class="searchButtons">
-    <button class="searchResultButton patientViewDoc">Read more about this Doctor</button>
+    <button id="${result.email}" class="searchResultButton patientViewDoc">Read more about this Doctor</button>
     <button class="searchResultButton patientSkejit">Make appointment!</button>
     </div>
 
