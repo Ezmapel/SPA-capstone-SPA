@@ -225,6 +225,7 @@ db.collection("doctors")
     querySnapshot.forEach(function (doc) {
       console.log(doc.id, " => ", doc.data());
       state.SearchResults.results.push(doc.data());
+      state.SearchResultsGuest.results.push(doc.data());
     });
   })
   .catch(function (error) {

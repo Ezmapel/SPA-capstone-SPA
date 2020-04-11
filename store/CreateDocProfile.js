@@ -1,5 +1,5 @@
 export default {
-  Header: "Welcome New Doctor! Create your profile.",
+  Header: "Welcome! Update your profile.",
   view: "CreateDocProfile",
   docUserData: "",
 };
