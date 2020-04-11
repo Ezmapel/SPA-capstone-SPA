@@ -8,6 +8,38 @@ export default (st) => `<section id="allSearchResults">
 
 <h2 class="showMe">${st.specificDocDetails[0].firstName} ${st.specificDocDetails[0].lastName}</h2>
 
+<section class="docProfilePage">
+
+<div>
+<img class="profileImg" src="${st.specificDocDetails[0].img}">
+<p class="docBold">${st.specificDocDetails[0].firstName} ${st.specificDocDetails[0].lastName}, MD (Not a real doctor)</p>
+<p>Specialty: ${st.specificDocDetails[0].specialty}</p>
+<p>Sex: ${st.specificDocDetails[0].sex}</p>
+<p>Age: ${st.specificDocDetails[0].age}</p>
+<p>City: ${st.specificDocDetails[0].city}</p>
+<p>State: ${st.specificDocDetails[0].state}</p>
+</div>
+
+<div>
+<p>Bio: ${st.specificDocDetails[0].bio}</p>
+<p>Education: ${st.specificDocDetails[0].education}</p>
+<p>Specialties: ${st.specificDocDetails[0].specialties}</p>
+<p>Insurance(s) accepted: ${st.specificDocDetails[0].insurance}</p>
+<p>Patient rating: ${st.specificDocDetails[0].rating}</p>
+<p>Accepting New Patients: ${st.specificDocDetails[0].accepting}</p>
+</div>
+
+<div>
+<p>Office Name: ${st.specificDocDetails[0].officeName}</p>
+<p>Location:<br>${st.specificDocDetails[0].address}<br>${st.specificDocDetails[0].city}, ${st.specificDocDetails[0].state}</p>
+<p>Phone: ${st.specificDocDetails[0].phone}</p>
+<div>
+
+<div>
+<img src="">
+</div>
+</section>
+
 <section class="day">
 <section class="dayOne">
 <div class="calendar1">Slot 1</div>

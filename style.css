@@ -547,3 +547,13 @@ button:hover {
 .specificDocHidden {
   visibility: hidden;
 }
+
+.docProfilePage {
+  color: white;
+}
+
+.profileImg {
+  display: flex;
+  width: 15%;
+  height: 15%;
+}
