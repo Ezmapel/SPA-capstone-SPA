@@ -521,7 +521,15 @@ button:hover {
   align-items: center;
   border-radius: 5px;
   margin: 0px 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
   /* background-color: rgb(57, 2, 2); */
+}
+
+.bookableAppt {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
 }
 
 .calendar2 {
@@ -532,6 +540,8 @@ button:hover {
   align-items: center;
   border-radius: 5px;
   margin: 0px 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
   /* background-color: rgb(57, 2, 2); */
 }
 
@@ -543,6 +553,8 @@ button:hover {
   align-items: center;
   border-radius: 5px;
   margin: 0px 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
   /* background-color: rgb(57, 2, 2); */
 }
 
@@ -554,6 +566,8 @@ button:hover {
   align-items: center;
   border-radius: 5px;
   margin: 0px 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
   /* background-color: rgb(57, 2, 2); */
 }
 
@@ -565,6 +579,8 @@ button:hover {
   align-items: center;
   border-radius: 5px;
   margin: 0px 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
   /* background-color: rgb(57, 2, 2); */
 }
 
@@ -716,4 +732,36 @@ button:hover {
   display: flex;
   justify-content: center;
   padding: 2%;
+}
+
+.constructionCenter {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+}
+
+.underConstructionHeader {
+  margin: 2% 25%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(182, 184, 186);
+  font-size: 24px;
+}
+
+.constructionImg {
+  height: 40%;
+  width: 40%;
+  display: block;
+  /* justify-content: center; */
+}
+
+.centerConstructionImg {
+  display: flex;
+  justify-content: center;
+}
+
+.constructionCenterImg {
+  /* display: flex;
+  justify-content: center; */
 }

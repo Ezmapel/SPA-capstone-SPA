@@ -61,59 +61,59 @@ export default (st) => `
 
   <section class="day">
 
-  <section class="dayOne">
-    <div id="Slot 1" class="calendar1">Slot 1</div>
-    <div id="Slot 2" class="calendar1">Slot 2</div>
-    <div class="calendar1">Slot 3</div>
-    <div class="calendar1">Slot 4</div>
-    <div class="calendar1">Slot 5</div>
-    <div class="calendar1">Slot 6</div>
-    <div class="calendar1">Slot 7</div>
-    <div class="calendar1">Slot 8</div>
+  <section id="dayOne" class="dayOne">
+    <button value="0" id="Monday Slot 1" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 1</div></button>
+    <button value="1" id="Monday Slot 2" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 2</div></button>
+    <button value="2" id="Monday Slot 3" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 3</div></button>
+    <button value="3" id="Monday Slot 4" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 4</div></button>
+    <button value="4" id="Monday Slot 5" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 5</div></button>
+    <button value="5" id="Monday Slot 6" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 6</div></button>
+    <button value="6" id="Monday Slot 7" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 7</div></button>
+    <button value="7" id="Monday Slot 8" class="calendar1True bookableAppt"><div class="calendar1">Monday Slot 8</div></button>
   </section>
 
-  <section class="dayTwo">
-    <div class="calendar2">Slot 1</div>
-    <div class="calendar2">Slot 2</div>
-    <div class="calendar2">Slot 3</div>
-    <div class="calendar2">Slot 4</div>
-    <div class="calendar2">Slot 5</div>
-    <div class="calendar2">Slot 6</div>
-    <div class="calendar2">Slot 7</div>
-    <div class="calendar2">Slot 8</div>
+  <section id="dayTwo" class="dayTwo">
+    <button value="0" id="Tuesday Slot 1" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 1</div></button>
+    <button value="1" id="Tuesday Slot 2" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 2</div></button>
+    <button value="2" id="Tuesday Slot 3" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 3</div></button>
+    <button value="3" id="Tuesday Slot 4" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 4</div></button>
+    <button value="4" id="Tuesday Slot 5" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 5</div></button>
+    <button value="5" id="Tuesday Slot 6" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 6</div></button>
+    <button value="6" id="Tuesday Slot 7" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 7</div></button>
+    <button value="7" id="Tuesday Slot 8" class="calendar2True bookableAppt"><div class="calendar2">Tuesday Slot 8</div></button>
   </section>
 
-  <section class="dayThree">
-    <div class="calendar3">Slot 1</div>
-    <div class="calendar3">Slot 2</div>
-    <div class="calendar3">Slot 3</div>
-    <div class="calendar3">Slot 4</div>
-    <div class="calendar3">Slot 5</div>
-    <div class="calendar3">Slot 6</div>
-    <div class="calendar3">Slot 7</div>
-    <div class="calendar3">Slot 8</div>
+  <section id="dayThree" class="dayThree">
+    <button value="0" id="Wednesday Slot 1" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 1</div></button>
+    <button value="1" id="Wednesday Slot 2" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 2</div></button>
+    <button value="2" id="Wednesday Slot 3" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 3</div></button>
+    <button value="3" id="Wednesday Slot 4" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 4</div></button>
+    <button value="4" id="Wednesday Slot 5" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 5</div></button>
+    <button value="5" id="Wednesday Slot 6" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 6</div></button>
+    <button value="6" id="Wednesday Slot 7" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 7</div></button>
+    <button value="7" id="Wednesday Slot 8" class="calendar3True bookableAppt"><div class="calendar3">Wednesday Slot 8</div></button>
   </section>
 
-  <section class="dayFour">
-    <div class="calendar4">Slot 1</div>
-    <div class="calendar4">Slot 2</div>
-    <div class="calendar4">Slot 3</div>
-    <div class="calendar4">Slot 4</div>
-    <div class="calendar4">Slot 5</div>
-    <div class="calendar4">Slot 6</div>
-    <div class="calendar4">Slot 7</div>
-    <div class="calendar4">Slot 8</div>
+  <section id="dayFour" class="dayFour">
+    <button value="0" id="Thursday Slot 1" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 1</div></button>
+    <button value="1" id="Thursday Slot 2" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 2</div></button>
+    <button value="2" id="Thursday Slot 3" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 3</div></button>
+    <button value="3" id="Thursday Slot 4" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 4</div></button>
+    <button value="4" id="Thursday Slot 5" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 5</div></button>
+    <button value="5" id="Thursday Slot 6" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 6</div></button>
+    <button value="6" id="Thursday Slot 7" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 7</div></button>
+    <button value="7" id="Thursday Slot 8" class="calendar4True bookableAppt"><div class="calendar4">Thursday Slot 8</div></button>
   </section>
 
-  <section class="dayFive">
-    <div class="calendar5">Slot 1</div>
-    <div class="calendar5">Slot 2</div>
-    <div class="calendar5">Slot 3</div>
-    <div class="calendar5">Slot 4</div>
-    <div class="calendar5">Slot 5</div>
-    <div class="calendar5">Slot 6</div>
-    <div class="calendar5">Slot 7</div>
-    <div class="calendar5">Slot 8</div>
+  <section id="dayFive" class="dayFive">
+    <button value="0" id="Friday Slot 1" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 1</div></button>
+    <button value="1" id="Friday Slot 2" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 2</div></button>
+    <button value="2" id="Friday Slot 3" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 3</div></button>
+    <button value="3" id="Friday Slot 4" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 4</div></button>
+    <button value="4" id="Friday Slot 5" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 5</div></button>
+    <button value="5" id="Friday Slot 6" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 6</div></button>
+    <button value="6" id="Friday Slot 7" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 7</div></button>
+    <button value="7" id="Friday Slot 8" class="calendar5True bookableAppt"><div class="calendar5">Friday Slot 8</div></button>
   </section>
 
   </section>
