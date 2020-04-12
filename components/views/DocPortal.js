@@ -4,8 +4,16 @@ export default (st) => `
 <button id="userLoggedIn"></button>
 </div>
 
-<h2 class="showMe">${st.Header}</h2>
-<button class="portalButton docSched">Edit Schedule</button>
-<button class="portalButton docNotifications">Notification Settings</button>
-<button class="portalButton docBookings">Upcoming Appointments</button>
-<button class="portalButton createDocProfile">Edit Your Profile</button>`;
+<section id="jumbotronDocPortal">
+<section class="portalText">
+<div>
+<h2 class="headerAcct">${st.Header}</h2>
+</div>
+<div class="splitPortal">
+<button class="portalButtonDoc docSched">Edit Schedule</button>
+<button class="portalButtonDoc docNotifications">Notification Settings</button>
+<button class="portalButtonDoc docBookings">Upcoming Appointments</button>
+<button class="portalButtonDoc createDocProfile">Edit Your Profile</button>
+</div>
+</section>
+</section>`;

@@ -59,6 +59,24 @@ body {
   z-index: 1; */
 }
 
+#jumbotronDocPortal {
+  background-image: url(https://raw.githubusercontent.com/Ezmapel/SPA-capstone-SPA/master/pics/hallway.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  /* width: 80vw; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding: 3%; */
+  margin: 3% 0%;
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px);
+  z-index: 1; */
+}
+
 .jumbotronAccountText {
   /* z-index: 9999; */
   /* backdrop-filter: blur(4px);
@@ -379,7 +397,25 @@ button:hover {
   /* padding: 3%;
   margin: 2%;
   max-width: 50%; */
-  margin: 5%;
+  margin: 0% 5%;
+  height: 100px;
+  width: 200px;
+  background-color: rgb(208, 135, 0);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 3%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.portalButtonDoc {
+  /* display: flex;
+  justify-content: space-between; */
+  /* padding: 3%;
+  margin: 2%;
+  max-width: 50%; */
+  margin: 33% 5%;
   height: 100px;
   width: 200px;
   background-color: rgb(208, 135, 0);
@@ -392,6 +428,11 @@ button:hover {
 }
 
 .portalButton:hover {
+  background-color: rgb(162, 106, 1);
+  cursor: pointer;
+}
+
+.portalButtonDoc:hover {
   background-color: rgb(162, 106, 1);
   cursor: pointer;
 }
