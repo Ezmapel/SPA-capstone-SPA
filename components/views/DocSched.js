@@ -7,58 +7,58 @@ export default (st) => `
 <h2 class="showMe">${st.Header}</h2>
 <section class="day">
 <section class="dayOne">
-<div class="calendar1">Slot 1</div>
-<div class="calendar1">Slot 2</div>
-<div class="calendar1">Slot 3</div>
-<div class="calendar1">Slot 4</div>
-<div class="calendar1">Slot 5</div>
-<div class="calendar1">Slot 6</div>
-<div class="calendar1">Slot 7</div>
-<div class="calendar1">Slot 8</div>
+<div class="calendar1">Available?   Y<input value="0" class="calendar1True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar1">Available?   Y<input value="1" class="calendar1True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar1">Available?   Y<input value="2" class="calendar1True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar1">Available?   Y<input value="3" class="calendar1True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar1">Available?   Y<input value="4" class="calendar1True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar1">Available?   Y<input value="5" class="calendar1True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar1">Available?   Y<input value="6" class="calendar1True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar1">Available?   Y<input value="7" class="calendar1True" type="checkbox" name="checkboxavail>"></div>
 </section>
 
 <section class="dayTwo">
-<div class="calendar2">Slot 1</div>
-<div class="calendar2">Slot 2</div>
-<div class="calendar2">Slot 3</div>
-<div class="calendar2">Slot 4</div>
-<div class="calendar2">Slot 5</div>
-<div class="calendar2">Slot 6</div>
-<div class="calendar2">Slot 7</div>
-<div class="calendar2">Slot 8</div>
+<div class="calendar2">Available?   Y<input value="0" class="calendar2True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar2">Available?   Y<input value="1" class="calendar2True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar2">Available?   Y<input value="2" class="calendar2True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar2">Available?   Y<input value="3" class="calendar2True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar2">Available?   Y<input value="4" class="calendar2True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar2">Available?   Y<input value="5" class="calendar2True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar2">Available?   Y<input value="6" class="calendar2True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar2">Available?   Y<input value="7" class="calendar2True" type="checkbox" name="checkboxavail>"></div>
 </section>
 
 <section class="dayThree">
-<div class="calendar3">Slot 1</div>
-<div class="calendar3">Slot 2</div>
-<div class="calendar3">Slot 3</div>
-<div class="calendar3">Slot 4</div>
-<div class="calendar3">Slot 5</div>
-<div class="calendar3">Slot 6</div>
-<div class="calendar3">Slot 7</div>
-<div class="calendar3">Slot 8</div>
+<div class="calendar3">Available?   Y<input value="0" class="calendar3True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar3">Available?   Y<input value="1" class="calendar3True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar3">Available?   Y<input value="2" class="calendar3True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar3">Available?   Y<input value="3" class="calendar3True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar3">Available?   Y<input value="4" class="calendar3True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar3">Available?   Y<input value="5" class="calendar3True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar3">Available?   Y<input value="6" class="calendar3True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar3">Available?   Y<input value="7" class="calendar3True" type="checkbox" name="checkboxavail>"></div>
 </section>
 
 <section class="dayFour">
-<div class="calendar4">Slot 1</div>
-<div class="calendar4">Slot 2</div>
-<div class="calendar4">Slot 3</div>
-<div class="calendar4">Slot 4</div>
-<div class="calendar4">Slot 5</div>
-<div class="calendar4">Slot 6</div>
-<div class="calendar4">Slot 7</div>
-<div class="calendar4">Slot 8</div>
+<div class="calendar4">Available?   Y<input value="0" class="calendar4True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar4">Available?   Y<input value="1" class="calendar4True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar4">Available?   Y<input value="2" class="calendar4True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar4">Available?   Y<input value="3" class="calendar4True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar4">Available?   Y<input value="4" class="calendar4True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar4">Available?   Y<input value="5" class="calendar4True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar4">Available?   Y<input value="6" class="calendar4True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar4">Available?   Y<input value="7" class="calendar4True" type="checkbox" name="checkboxavail>"></div>
 </section>
 
 <section class="dayFive">
-<div class="calendar5">Slot 1</div>
-<div class="calendar5">Slot 2</div>
-<div class="calendar5">Slot 3</div>
-<div class="calendar5">Slot 4</div>
-<div class="calendar5">Slot 5</div>
-<div class="calendar5">Slot 6</div>
-<div class="calendar5">Slot 7</div>
-<div class="calendar5">Slot 8</div>
+<div class="calendar5">Available?   Y<input value="0" class="calendar5True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar5">Available?   Y<input value="1" class="calendar5True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar5">Available?   Y<input value="2" class="calendar5True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar5">Available?   Y<input value="3" class="calendar5True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar5">Available?   Y<input value="4" class="calendar5True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar5">Available?   Y<input value="5" class="calendar5True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar5">Available?   Y<input value="6" class="calendar5True" type="checkbox" name="checkboxavail"></div>
+<div class="calendar5">Available?   Y<input value="7" class="calendar5True" type="checkbox" name="checkboxavail>"></div>
 </section>
 
 </section>
