@@ -54,7 +54,7 @@ li {
 }
 
 .accent:hover {
-  background-color: white;
+  background-color: rgb(122, 151, 164);
   color: black;
   cursor: pointer;
 }
@@ -156,8 +156,8 @@ h1 {
 }
 
 p {
-  font-weight: bold;
-  font-size: 12px;
+  /* font-weight: bold; */
+  font-size: 14px;
   padding: 0px 20px;
 }
 
@@ -208,7 +208,7 @@ h3 {
   margin: 1% 10% 0% 10%;
 }
 
-img {
+.imageOne {
   display: block;
   max-width: 35%;
   max-height: 35%;
@@ -241,7 +241,7 @@ button:hover {
   margin-top: 2%;
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgb(182, 184, 186);
   font-size: 48px;
 }
 
@@ -287,7 +287,7 @@ button:hover {
   background: rgba(0, 0, 0, 0.249);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  color: white;
+  color: rgb(122, 151, 164);
   margin: 3% 20%;
   display: flex;
   flex-direction: column;
@@ -477,7 +477,7 @@ button:hover {
 }
 
 .individualSearchResult {
-  color: white;
+  color: rgb(199, 202, 203);
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -496,7 +496,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   /* border-top: 1px double black; */
-  border-top: 4px double white;
+  border-top: 4px double gray;
 }
 
 .docBold {
@@ -548,12 +548,60 @@ button:hover {
   visibility: hidden;
 }
 
-.docProfilePage {
-  color: white;
+#freshDocProfile {
+  color: rgb(122, 151, 164);
+  display: flex;
+  justify-content: center;
+}
+
+.docProfileCenter {
+  display: flex;
+  flex-direction: column;
+  margin: 0% 5%;
 }
 
 .profileImg {
+  height: 90px;
+  width: 90px;
+  margin: 18px 0px;
+}
+
+.profileImgTwo {
+  height: 250px;
+  width: 250px;
+  border: 2px solid gray;
+}
+
+.profileName {
+  font-size: 24px;
+}
+
+.splitPhoto {
   display: flex;
-  width: 15%;
-  height: 15%;
+}
+
+.lineOnTop {
+  border-top: 4px double gray;
+}
+
+.lightText {
+  color: rgb(176, 185, 189)
+}
+
+.availabilityHeader {
+  background-color: rgb(91, 88, 88);
+}
+
+.availabilityHeaderTitle {
+  background-color: rgb(91, 88, 88);
+  display: flex;
+  justify-content: center;
+  color: rgb(208, 211, 213);
+  font-size: 24px;
+}
+
+.centerMiddleBottom {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
 }

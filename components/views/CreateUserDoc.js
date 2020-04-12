@@ -1,4 +1,4 @@
-export default st => `
+export default (st) => `
 <div class="underNav">
 <button class="navInApp accountType"><--</button>
 <button id="userLoggedIn"></button>
@@ -7,7 +7,7 @@ export default st => `
 <h2 class="showMe">${st.Header}</h2>
 
 <div class="loginBox">
-<h2 class="border">Select your login info:</h2>
+<h2 class="border lightText">Select your login info:</h2>
 <input id="newDocEmail" class="signin" placeholder="Email*" type="text" >
 <input id="newDocPassword" class="signin" placeholder="Password*" type="password">
 <input class="signin" placeholder="Confirm Password*" type="password">

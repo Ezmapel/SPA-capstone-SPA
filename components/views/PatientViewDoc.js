@@ -1,108 +1,129 @@
-import * as state from "../../store";
+export default (st) => `
+<section id="allSearchResults">
+    <div class="underNav">
+      <button class="navInApp searchResults"><--</button>
+      <button id="userLoggedIn"></button>
+    </div>
 
-export default (st) => `<section id="allSearchResults">
-<div class="underNav">
-<button class="navInApp searchResults"><--</button>
-<button id="userLoggedIn"></button>
+    <h2 class="showMe">${st.specificDocDetails[0].firstName} ${st.specificDocDetails[0].lastName}</h2>
+
+    <section id="freshDocProfile">
+        <section class="docProfileCenter">
+          <div>
+            <img class="profileImgTwo" src="${st.specificDocDetails[0].img}">
+          </div>
+
+          <div>
+            <h4 class="profileName">${st.specificDocDetails[0].firstName} ${st.specificDocDetails[0].lastName}, MD<br>(Not a real doctor)</h4>
+            <p><span class="docBold">Specialty: </span>${st.specificDocDetails[0].specialty}</p>
+            <p><span class="docBold">Sex: </span>${st.specificDocDetails[0].sex}</p>
+            <p><span class="docBold">Age: </span>${st.specificDocDetails[0].age}</p>
+            <p><span class="docBold">City: </span>${st.specificDocDetails[0].city}</p>
+            <p><span class="docBold">State: </span>${st.specificDocDetails[0].state} ${st.specificDocDetails[0].zipcode}</p>
+          </div>
+        </section>
+
+        <section class="docProfileCenter">
+          <div>
+          <div>
+            <p><span class="docBold">Bio: </span>${st.specificDocDetails[0].bio}</p>
+            <p><span class="docBold">Education: </span>${st.specificDocDetails[0].education}</p>
+            <p><span class="docBold">Specialties: </span>${st.specificDocDetails[0].specialties}</p>
+            <p><span class="docBold">Insurance(s) accepted: </span>${st.specificDocDetails[0].insurance}</p>
+            <p><span class="docBold">Patient rating: </span>${st.specificDocDetails[0].rating}</p>
+            <p><span class="docBold">Accepting New Patients: </span>${st.specificDocDetails[0].accepting}</p>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+          <div class="lineOnTop">
+            <p><span class="docBold">Office Name: </span>${st.specificDocDetails[0].officeName}</p>
+            <p><span class="docBold">Phone: </span>${st.specificDocDetails[0].phone}</p>
+          </div>
+          </div>
+
+          <div class="splitPhoto">
+          <div>
+            <p><span class="docBold">Location:</span><br>${st.specificDocDetails[0].address}<br>${st.specificDocDetails[0].city}, ${st.specificDocDetails[0].state} ${st.specificDocDetails[0].zipcode}</p>
+          </div>
+
+          <div>
+            <img class="profileImg" src="https://raw.githubusercontent.com/Ezmapel/SPA-capstone-SPA/master/pics/map.png">
+            </div>
+        </section>
+    </section>
+
+<section class="availabilityHeader">
+<div class="availabilityHeaderTitle">
+<h2>Availability Calendar</h2>
 </div>
 
-<h2 class="showMe">${st.specificDocDetails[0].firstName} ${st.specificDocDetails[0].lastName}</h2>
+  <section class="day">
 
-<section class="docProfilePage">
+  <section class="dayOne">
+    <div class="calendar1">Slot 1</div>
+    <div class="calendar1">Slot 2</div>
+    <div class="calendar1">Slot 3</div>
+    <div class="calendar1">Slot 4</div>
+    <div class="calendar1">Slot 5</div>
+    <div class="calendar1">Slot 6</div>
+    <div class="calendar1">Slot 7</div>
+    <div class="calendar1">Slot 8</div>
+  </section>
 
-<div>
-<img class="profileImg" src="${st.specificDocDetails[0].img}">
-<p class="docBold">${st.specificDocDetails[0].firstName} ${st.specificDocDetails[0].lastName}, MD (Not a real doctor)</p>
-<p>Specialty: ${st.specificDocDetails[0].specialty}</p>
-<p>Sex: ${st.specificDocDetails[0].sex}</p>
-<p>Age: ${st.specificDocDetails[0].age}</p>
-<p>City: ${st.specificDocDetails[0].city}</p>
-<p>State: ${st.specificDocDetails[0].state}</p>
-</div>
+  <section class="dayTwo">
+    <div class="calendar2">Slot 1</div>
+    <div class="calendar2">Slot 2</div>
+    <div class="calendar2">Slot 3</div>
+    <div class="calendar2">Slot 4</div>
+    <div class="calendar2">Slot 5</div>
+    <div class="calendar2">Slot 6</div>
+    <div class="calendar2">Slot 7</div>
+    <div class="calendar2">Slot 8</div>
+  </section>
 
-<div>
-<p>Bio: ${st.specificDocDetails[0].bio}</p>
-<p>Education: ${st.specificDocDetails[0].education}</p>
-<p>Specialties: ${st.specificDocDetails[0].specialties}</p>
-<p>Insurance(s) accepted: ${st.specificDocDetails[0].insurance}</p>
-<p>Patient rating: ${st.specificDocDetails[0].rating}</p>
-<p>Accepting New Patients: ${st.specificDocDetails[0].accepting}</p>
-</div>
+  <section class="dayThree">
+    <div class="calendar3">Slot 1</div>
+    <div class="calendar3">Slot 2</div>
+    <div class="calendar3">Slot 3</div>
+    <div class="calendar3">Slot 4</div>
+    <div class="calendar3">Slot 5</div>
+    <div class="calendar3">Slot 6</div>
+    <div class="calendar3">Slot 7</div>
+    <div class="calendar3">Slot 8</div>
+  </section>
 
-<div>
-<p>Office Name: ${st.specificDocDetails[0].officeName}</p>
-<p>Location:<br>${st.specificDocDetails[0].address}<br>${st.specificDocDetails[0].city}, ${st.specificDocDetails[0].state}</p>
-<p>Phone: ${st.specificDocDetails[0].phone}</p>
-<div>
+  <section class="dayFour">
+    <div class="calendar4">Slot 1</div>
+    <div class="calendar4">Slot 2</div>
+    <div class="calendar4">Slot 3</div>
+    <div class="calendar4">Slot 4</div>
+    <div class="calendar4">Slot 5</div>
+    <div class="calendar4">Slot 6</div>
+    <div class="calendar4">Slot 7</div>
+    <div class="calendar4">Slot 8</div>
+  </section>
 
-<div>
-<img src="">
-</div>
-</section>
+  <section class="dayFive">
+    <div class="calendar5">Slot 1</div>
+    <div class="calendar5">Slot 2</div>
+    <div class="calendar5">Slot 3</div>
+    <div class="calendar5">Slot 4</div>
+    <div class="calendar5">Slot 5</div>
+    <div class="calendar5">Slot 6</div>
+    <div class="calendar5">Slot 7</div>
+    <div class="calendar5">Slot 8</div>
+  </section>
 
-<section class="day">
-<section class="dayOne">
-<div class="calendar1">Slot 1</div>
-<div class="calendar1">Slot 2</div>
-<div class="calendar1">Slot 3</div>
-<div class="calendar1">Slot 4</div>
-<div class="calendar1">Slot 5</div>
-<div class="calendar1">Slot 6</div>
-<div class="calendar1">Slot 7</div>
-<div class="calendar1">Slot 8</div>
-</section>
+  </section>
 
-<section class="dayTwo">
-<div class="calendar2">Slot 1</div>
-<div class="calendar2">Slot 2</div>
-<div class="calendar2">Slot 3</div>
-<div class="calendar2">Slot 4</div>
-<div class="calendar2">Slot 5</div>
-<div class="calendar2">Slot 6</div>
-<div class="calendar2">Slot 7</div>
-<div class="calendar2">Slot 8</div>
-</section>
+  <div class="centerMiddleBottom">
+  <button class="navInApp patientSkejit">Make appointment!</button>
+  </div>
 
-<section class="dayThree">
-<div class="calendar3">Slot 1</div>
-<div class="calendar3">Slot 2</div>
-<div class="calendar3">Slot 3</div>
-<div class="calendar3">Slot 4</div>
-<div class="calendar3">Slot 5</div>
-<div class="calendar3">Slot 6</div>
-<div class="calendar3">Slot 7</div>
-<div class="calendar3">Slot 8</div>
-</section>
+  </section>
 
-<section class="dayFour">
-<div class="calendar4">Slot 1</div>
-<div class="calendar4">Slot 2</div>
-<div class="calendar4">Slot 3</div>
-<div class="calendar4">Slot 4</div>
-<div class="calendar4">Slot 5</div>
-<div class="calendar4">Slot 6</div>
-<div class="calendar4">Slot 7</div>
-<div class="calendar4">Slot 8</div>
-</section>
-
-<section class="dayFive">
-<div class="calendar5">Slot 1</div>
-<div class="calendar5">Slot 2</div>
-<div class="calendar5">Slot 3</div>
-<div class="calendar5">Slot 4</div>
-<div class="calendar5">Slot 5</div>
-<div class="calendar5">Slot 6</div>
-<div class="calendar5">Slot 7</div>
-<div class="calendar5">Slot 8</div>
-</section>
-
-</section>
-
-<div id="slotOne" class="timeSlot"></div>
-<div id="slotTwo" class="timeSlot"></div>
-<div id="slotThree" class="timeSlot"></div>
-
-<button class="navInApp patientSkejit">Make appointment!</button>
 </section>`;
 
 // function formatResults(result) {
@@ -120,3 +141,9 @@ export default (st) => `<section id="allSearchResults">
 
 //   </div>`;
 // }
+
+{
+  /* <div id="slotOne" class="timeSlot"></div>
+<div id="slotTwo" class="timeSlot"></div>
+<div id="slotThree" class="timeSlot"></div> */
+}

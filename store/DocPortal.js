@@ -1,4 +1,4 @@
 export default {
-  Header: "Here's what info patients will see...",
-  view: "DocPortal"
+  Header: "Doctor Portal",
+  view: "DocPortal",
 };

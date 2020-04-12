@@ -57,6 +57,10 @@ export default (st) => `
 </div>
 
 <div class="doctorFormItem">
+  <label class="doctorFormItem">Zipcode:</label><input id="zipcodeValue" type="text" value="${state.CreateDocProfile.docUserData.zipcode}" required>
+</div>
+
+<div class="doctorFormItem">
   <label class="doctorFormItem">Phone #:</label><input id="phoneValue" type="text" value="${state.CreateDocProfile.docUserData.phone}" required>
 </div>
 
