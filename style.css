@@ -15,11 +15,19 @@ body {
   /* padding: 10px; */
 }
 
-#jumbotron {
+#jumbotronHome {
   background-image: url(./pics/pulse.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3%;
+  /* margin: 3% 0%; */
+}
+
+#jumbotronAccountType {
+  /* background-image: url(./pics/accountTypeBanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3%; */
   /* margin: 3% 0%; */
 }
 

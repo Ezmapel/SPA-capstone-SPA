@@ -4,7 +4,7 @@ export default () => `
 <button id="userLoggedIn"></button>
 </div>
 
-<section id="jumbotron">
+<section id="jumbotronHome">
 <header class="header">
 <h1>Skejit</h1>
 </header>

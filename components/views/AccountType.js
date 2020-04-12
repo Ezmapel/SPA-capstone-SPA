@@ -5,10 +5,11 @@ export default (st) => `
 </div>
 
 <h2 class="showMe">${st.Header}</h2>
+<section id="jumbotronAccountType">
 <div id="vertcenter" class="center">
-<img class="imageOne" src="https://raw.githubusercontent.com/Ezmapel/SPA-capstone-SPA/master/pics/doctor.jpg">
-<img class="imageOne" src="https://raw.githubusercontent.com/Ezmapel/SPA-capstone-SPA/master/pics/patient.jpg">
+<img class="imageOne" src="">
 </div>
+</section>
 
 <div class="center">
 <button class="acctTypeButton createUserDoc">I am a new DOCTOR. Create my account now!</button>
