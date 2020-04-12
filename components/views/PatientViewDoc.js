@@ -62,8 +62,8 @@ export default (st) => `
   <section class="day">
 
   <section class="dayOne">
-    <div class="calendar1">Slot 1</div>
-    <div class="calendar1">Slot 2</div>
+    <div id="Slot 1" class="calendar1">Slot 1</div>
+    <div id="Slot 2" class="calendar1">Slot 2</div>
     <div class="calendar1">Slot 3</div>
     <div class="calendar1">Slot 4</div>
     <div class="calendar1">Slot 5</div>

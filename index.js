@@ -37,13 +37,13 @@ import { patientPortal } from "./lib/PatientPortal";
 //   .resolve();
 
 export function render(st) {
-  console.log("state is", st);
+  // console.log("state is", st);
   document.querySelector("#root").innerHTML = `
   ${components.Nav()}
   ${components.Main(st)}
   ${components.Footer()}`;
 
-  console.log("st.Header", st.Header);
+  // console.log("st.Header", st.Header);
 
   // authListener();
 
@@ -188,7 +188,7 @@ function authListener() {
       .get()
       .then(function (doc) {
         if (doc.exists) {
-          // console.log("Document data", doc.data());
+          console.log("Document data", doc.data());
           state.CreateDocProfile.docUserData = doc.data();
           state.DocSched.docUserData = doc.data();
           docPortal();
@@ -198,9 +198,9 @@ function authListener() {
         }
       });
 
-    console.log("authState:", state.Auth.loggedIn);
-    console.log("username:", state.Auth.username);
-    console.log("Document Data", state.CreateDocProfile.docUserData);
+    // console.log("authState:", state.Auth.loggedIn);
+    // console.log("username:", state.Auth.username);
+    // console.log("Document Data", state.CreateDocProfile.docUserData);
   });
 }
 
@@ -223,7 +223,7 @@ db.collection("doctors")
   .get()
   .then(function (querySnapshot) {
     querySnapshot.forEach(function (doc) {
-      console.log(doc.id, " => ", doc.data());
+      // console.log(doc.id, " => ", doc.data());
       state.SearchResults.results.push(doc.data());
       state.SearchResultsGuest.results.push(doc.data());
     });
