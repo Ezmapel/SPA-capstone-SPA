@@ -627,6 +627,14 @@ button:hover {
   border-top: 4px double gray;
 }
 
+.splitConfirm {
+  display: flex;
+  justify-content: space-between;
+  margin: 7%;
+  /* border-top: 1px double black; */
+  /* border-top: 4px double gray; */
+}
+
 .docBold {
   font-size: 18px;
   font-weight: bolder;
@@ -650,6 +658,56 @@ button:hover {
   font-size: 14px;
   font-weight: bold;
   margin: 0% 1%;
+}
+
+.confirmationCenter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.confirmationButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 7% 40% 2% 5%; */
+  background-color: rgb(208, 135, 0);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10%;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0% 1%;
+  height: 80px;
+  width: 200px;
+}
+
+.confirmationButton:hover {
+  background-color: rgb(162, 106, 1);
+  cursor: pointer;
+}
+
+.confirmButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 7% 40% 2% 5%; */
+  background-color: rgb(208, 135, 0);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5%;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0% 4%;
+  height: 100px;
+  width: 200px;
+}
+
+.confirmButton:hover {
+  background-color: rgb(162, 106, 1);
+  cursor: pointer;
 }
 
 .searchResultButton:hover {

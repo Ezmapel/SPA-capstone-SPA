@@ -75,56 +75,56 @@ export function render(st) {
   //   });
   // }
 
-  function navEventListeners() {
-    document
-      .querySelector(".accountTypeNav")
-      .addEventListener("click", lib.accountType);
-    document
-      .querySelector(".createDocProfileNav")
-      .addEventListener("click", lib.createDocProfile);
-    document
-      .querySelector(".createUserDocNav")
-      .addEventListener("click", lib.createUserDoc);
-    document
-      .querySelector(".createUserPatientNav")
-      .addEventListener("click", lib.createUserPatient);
-    document
-      .querySelector(".docBookingsNav")
-      .addEventListener("click", lib.docBookings);
-    document
-      .querySelector(".docNotificationsNav")
-      .addEventListener("click", lib.docNotifications);
-    document
-      .querySelector(".docPortalNav")
-      .addEventListener("click", lib.docPortal);
-    document
-      .querySelector(".docSchedNav")
-      .addEventListener("click", lib.docSched);
-    document
-      .querySelector(".docTimeSlotsNav")
-      .addEventListener("click", lib.docTimeSlots);
-    document.querySelector(".homeNav").addEventListener("click", lib.home);
-    document
-      .querySelector(".patientBookingsNav")
-      .addEventListener("click", lib.patientBookings);
-    document
-      .querySelector(".patientConfirmationNav")
-      .addEventListener("click", lib.patientConfirmation);
-    document
-      .querySelector(".patientPortalNav")
-      .addEventListener("click", lib.patientPortal);
-    document
-      .querySelector(".patientSkejitNav")
-      .addEventListener("click", lib.patientSkejit);
-    document
-      .querySelector(".patientViewDocNav")
-      .addEventListener("click", lib.patientViewDoc);
-    document
-      .querySelector(".searchResultsNav")
-      .addEventListener("click", lib.searchResults);
-  }
+  // function navEventListeners() {
+  //   document
+  //     .querySelector(".accountTypeNav")
+  //     .addEventListener("click", lib.accountType);
+  //   document
+  //     .querySelector(".createDocProfileNav")
+  //     .addEventListener("click", lib.createDocProfile);
+  //   document
+  //     .querySelector(".createUserDocNav")
+  //     .addEventListener("click", lib.createUserDoc);
+  //   document
+  //     .querySelector(".createUserPatientNav")
+  //     .addEventListener("click", lib.createUserPatient);
+  //   document
+  //     .querySelector(".docBookingsNav")
+  //     .addEventListener("click", lib.docBookings);
+  //   document
+  //     .querySelector(".docNotificationsNav")
+  //     .addEventListener("click", lib.docNotifications);
+  //   document
+  //     .querySelector(".docPortalNav")
+  //     .addEventListener("click", lib.docPortal);
+  //   document
+  //     .querySelector(".docSchedNav")
+  //     .addEventListener("click", lib.docSched);
+  //   document
+  //     .querySelector(".docTimeSlotsNav")
+  //     .addEventListener("click", lib.docTimeSlots);
+  //   document.querySelector(".homeNav").addEventListener("click", lib.home);
+  //   document
+  //     .querySelector(".patientBookingsNav")
+  //     .addEventListener("click", lib.patientBookings);
+  //   document
+  //     .querySelector(".patientConfirmationNav")
+  //     .addEventListener("click", lib.patientConfirmation);
+  //   document
+  //     .querySelector(".patientPortalNav")
+  //     .addEventListener("click", lib.patientPortal);
+  //   document
+  //     .querySelector(".patientSkejitNav")
+  //     .addEventListener("click", lib.patientSkejit);
+  //   document
+  //     .querySelector(".patientViewDocNav")
+  //     .addEventListener("click", lib.patientViewDoc);
+  //   document
+  //     .querySelector(".searchResultsNav")
+  //     .addEventListener("click", lib.searchResults);
+  // }
 
-  navEventListeners();
+  // navEventListeners();
 
   // router.updatePageLinks();
 }

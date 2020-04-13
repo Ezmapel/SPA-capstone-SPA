@@ -1,5 +1,5 @@
 export default {
-  Header: "Schedule your appointment",
+  Header: "Confirm your appointment",
   view: "PatientSkejit",
   appointment: "",
   slot: "",
