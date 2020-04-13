@@ -2,7 +2,7 @@ import * as state from "../../store";
 
 export default (st) => `
 <div class="underNav">
-<button class="navInApp patientViewDoc"><--</button>
+<button class="navInApp patientViewDoc"><-</button>
 <button id="userLoggedIn"></button>
 </div>
 

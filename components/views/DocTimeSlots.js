@@ -1,6 +1,6 @@
-export default st => `
+export default (st) => `
 <div class="underNav">
-<button class="navInApp docSched"><--</button>
+<button class="navInApp docSched"><-</button>
 <button id="userLoggedIn"></button>
 </div>
 

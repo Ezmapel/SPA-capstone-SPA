@@ -1,6 +1,6 @@
 export default (st) => `
 <div class="underNav">
-<button class="navInApp patientPortal"><--</button>
+<button class="navInApp patientPortal"><-</button>
 <button id="userLoggedIn"></button>
 </div>
 

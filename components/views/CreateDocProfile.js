@@ -65,7 +65,7 @@ export default (st) => `
 </div>
 
 <div class="doctorFormItem">
-  <label class="doctorFormItem">Accepting New Patients:</label><input id="acceptingValue" type="text" size ="5" value="${state.CreateDocProfile.docUserData.accepting}" required>
+  <label class="doctorFormItem">Accepting New Patients:</label><input id="acceptingValue" type="text" size ="15" value="${state.CreateDocProfile.docUserData.accepting}" readonly>
 </div>
 
 </div>

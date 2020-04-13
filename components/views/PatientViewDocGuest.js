@@ -1,7 +1,7 @@
 export default (st) => `
 <section id="allSearchResults">
 <div class="underNav">
-<button class="navInApp searchResultsGuest"><--</button>
+<button class="navInApp searchResultsGuest"><-</button>
 <button id="userLoggedIn"></button>
 </div>
 
