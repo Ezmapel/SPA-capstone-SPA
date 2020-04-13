@@ -88,7 +88,10 @@ export default (st) => `
   <label class="doctorFormItem">Insurance(s) Accepted:</label><input id="insuranceValue" type="text" size="40" value="${state.CreateDocProfile.docUserData.insurance}" required>
 </div>
 
+<div class="centerMiddleBottomBox">
+<button id="saveDocData" class="navInApp docPortal docProfileSave">Save</button>
 </div>
 
-</form>
-<button id="saveDocData" class="navInApp docPortal">Save</button>`;
+</div>
+
+</form>`;

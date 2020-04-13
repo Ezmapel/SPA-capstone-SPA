@@ -56,7 +56,7 @@ export default (st) => `
 
 <section class="availabilityHeader">
 <div class="availabilityHeaderTitle">
-<h2>Availability Calendar</h2>
+<h2>Click on a time slot to Skejit!</h2>
 </div>
 
   <section class="day">
@@ -117,10 +117,6 @@ export default (st) => `
   </section>
 
   </section>
-
-  <div class="centerMiddleBottom">
-  <button class="navInApp patientSkejit">Make appointment!</button>
-  </div>
 
   </section>
 

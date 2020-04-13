@@ -63,4 +63,6 @@ export default (st) => `
 
 </section>
 
-<button class="navInApp docTimeSlots">Edit</button>`;
+<div class="centerMiddleBottomSched">
+<button class="navInApp docPortal">Save</button>
+</div>`;
