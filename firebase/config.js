@@ -1,11 +1,11 @@
 import "../env";
 
 export default {
-  apiKey: process.env.FIREBASE_API,
+  apiKey: "AIzaSyATgj2kZbpXI-QfwEu2zrhCovvAfYPxiCE",
   authDomain: "practice-spa.firebaseapp.com",
   databaseURL: "https://practice-spa.firebaseio.com",
   projectId: "practice-spa",
   storageBucket: "practice-spa.appspot.com",
   messagingSenderId: "417950437861",
-  appId: process.env.FIREBASE_ID
+  appId: "1:417950437861:web:cf8fcd21a149b37ede1f0c",
 };
