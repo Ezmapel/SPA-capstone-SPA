@@ -75,6 +75,12 @@ export function render(st) {
   //   });
   // }
 
+  function aboutContactListener() {
+    document.querySelector("#contactPage").addEventListener("click", lib.about);
+  }
+
+  aboutContactListener();
+
   // function navEventListeners() {
   //   document
   //     .querySelector(".accountTypeNav")

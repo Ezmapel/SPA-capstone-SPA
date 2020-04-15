@@ -1,6 +1,5 @@
 export default () => `<footer>
     <ul class="inset">
-      <li class="accent">About</li>
-      <li class="accent">Contact</li>
+      <li id="contactPage" class="accent">About/Contact</li>
     </ul>
   </footer>`;

@@ -116,7 +116,7 @@ ul {
   text-align: end;
   flex-wrap: nowrap; */
   color: white;
-  font-size: 10px;
+  font-size: 18px;
 }
 
 li {
@@ -126,7 +126,7 @@ li {
 }
 
 .accent:hover {
-  background-color: rgb(122, 151, 164);
+  background-color: rgb(148, 159, 164);
   color: black;
   cursor: pointer;
 }
@@ -735,7 +735,7 @@ button:hover {
 }
 
 #freshDocProfile {
-  color: rgb(122, 151, 164);
+  color: rgb(182, 184, 186);
   display: flex;
   justify-content: center;
 }
@@ -839,4 +839,26 @@ button:hover {
 .constructionCenterImg {
   /* display: flex;
   justify-content: center; */
+}
+
+.aboutText {
+  color: rgb(182, 184, 186);
+  font-size: 18px;
+}
+
+.aboutCenter {
+  display: flex;
+  flex-direction: column;
+  margin: 0% 10%;
+  /* justify-content: flex-end; */
+}
+
+.aboutHighlight {
+  background-color: rgb(75, 0, 0);
+  padding: 3%;
+  border-radius: 15px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }

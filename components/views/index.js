@@ -1,4 +1,6 @@
+export { default as About } from "./About";
 export { default as AccountType } from "./AccountType";
+export { default as ContactSubmitted } from "./ContactSubmitted";
 export { default as CreateDocProfile } from "./CreateDocProfile";
 export { default as CreateUserDoc } from "./CreateUserDoc";
 export { default as CreateUserPatient } from "./CreateUserPatient";
