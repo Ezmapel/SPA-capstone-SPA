@@ -862,3 +862,58 @@ button:hover {
   flex-direction: column;
   text-align: center;
 }
+
+.contactSubmittedCenterImg {
+  display: flex;
+  justify-content: center;
+}
+
+.contactSubmittedCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url(https://raw.githubusercontent.com/Ezmapel/SPA-capstone-SPA/master/pics/thumbsUp.jpg);
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  width: 50vw;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* padding: 3%; */
+  margin: 3% 0%;
+}
+
+.contactSubmittedHeader {
+  margin: 2% 5% 2% 35%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+}
+
+.contactBackHome {
+  display: flex;
+  justify-content: flex-start;
+  /* margin: 7% 40% 2% 5%; */
+  background-color: rgb(120, 120, 242);
+  color: white;
+  border: 4px solid black;
+  border-radius: 5px;
+  padding: 8%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contactBackHome:hover {
+  background-color: rgb(85, 85, 142);
+  cursor: pointer;
+}
+
+.contactButtonDiv {
+  display: flex;
+  margin: 0% 18%;
+}

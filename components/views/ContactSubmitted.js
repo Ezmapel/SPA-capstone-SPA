@@ -4,8 +4,15 @@ export default (st) => `
 <button id="userLoggedIn"></button>
 </div>
 
-<div class="constructionCenter">
-  <h2 class="underConstructionHeader">${st.Header}</h2>
+<div class="contactSubmittedCenterImg">
 
-  <button class="navInApp home">Back to Home</button>
+<div class="contactSubmittedCenter">
+<div>
+  <h2 class="contactSubmittedHeader">${st.Header}</h2>
+  </div>
+
+<div class="contactButtonDiv">
+<button class="contactBackHome home">Back to Home</button>
+</div>
+</div>
 </div>`;
